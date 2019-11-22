@@ -1,3 +1,7 @@
+td,i {
+    font-size: 21px;
+}
+
 #v-pills-tab {
     margin-top: 0px;
     align-items: center;
@@ -12,7 +16,6 @@ i {
     background-color: rgba(0, 0, 0, 0);
     margin-bottom: 25px;
     margin-top: 25px;
-
 }
 
 i:hover {
