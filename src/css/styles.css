@@ -4,6 +4,7 @@ td,i {
 
 .nav {
     position: fixed;
+    margin: 2px;
 }
 
 #v-pills-tab {
@@ -79,21 +80,21 @@ img {
 
 @media (max-width: 1200px) {
     .column {
-      flex: 49%;
-      max-width: 49%;
+      flex: 50%;
+      max-width: 50%;
     }
   }
 
 @media (max-width: 800px) {
     .column {
-      flex: 49%;
-      max-width: 49%;
+      flex: 50%;
+      max-width: 50%;
     }
   }
 
 @media (max-width: 600px) {
     .column {
-      flex: 99%;
-      max-width: 99%;
+      flex: 95%;
+      max-width: 95%;
     }
   }
