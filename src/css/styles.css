@@ -4,7 +4,8 @@ td,i {
 
 .nav {
     position: fixed;
-    margin: 2px;
+    left: 0px;
+    margin: 10px;
 }
 
 #v-pills-tab {
@@ -32,7 +33,7 @@ i:hover {
 i.active {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(129, 11, 11);
-    font-size: 25px;
+    /* font-size: 25px; */
     border: 0px;
 }
 
@@ -46,6 +47,8 @@ h1 {
 
 #v-pills-tabContent {
     margin-top: 17px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
 * {
@@ -72,6 +75,7 @@ img {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
 .column img {
